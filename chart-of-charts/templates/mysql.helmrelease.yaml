@@ -2,10 +2,10 @@
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
-  name: mongodb
+  name: mysql
 spec:
-  releaseName: mongodb
+  releaseName: mysql
   chart:
     repository: https://kubernetes-charts.storage.googleapis.com/
-    name: mongodb
-    version: 4.9.0
+    name: mysql
+    version: 1.2.2
