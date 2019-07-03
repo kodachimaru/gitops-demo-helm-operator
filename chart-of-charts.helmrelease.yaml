@@ -6,6 +6,7 @@ metadata:
 spec:
   releaseName: chart-of-charts
   chart:
-    git: git@github.com:kodachimaru/gitops-demo-helm-operator.git
+    # git: git@github.com:kodachimaru/gitops-demo-helm-operator.git
+    git: https://github.com/kodachimaru/gitops-demo-helm-operator.git
     path: chart-of-charts
     ref: master
