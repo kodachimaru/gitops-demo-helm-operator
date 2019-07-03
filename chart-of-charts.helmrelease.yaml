@@ -6,6 +6,6 @@ metadata:
 spec:
   releaseName: chart-of-charts
   chart:
-    git: https://kubernetes-charts.storage.googleapis.com/
-    path: mongodb
+    git: git@github.com:kodachimaru/gitops-demo-helm-operator.git
+    path: chart-of-charts
     ref: master
