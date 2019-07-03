@@ -1,0 +1,11 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: mongodb
+spec:
+  releaseName: mongodb
+  chart:
+    repository: https://kubernetes-charts.storage.googleapis.com/
+    name: mongodb
+    version: 4.9.0
