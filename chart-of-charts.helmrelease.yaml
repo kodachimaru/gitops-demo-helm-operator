@@ -1,0 +1,11 @@
+---
+apiVersion: flux.weave.works/v1beta1
+kind: HelmRelease
+metadata:
+  name: chart-of-charts
+spec:
+  releaseName: chart-of-charts
+  chart:
+    git: https://kubernetes-charts.storage.googleapis.com/
+    path: mongodb
+    ref: master
